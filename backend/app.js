@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const express = require('express');
 
-const Thing = require('./models/Thing.js');
+const Thing = require('./models/thing');
 
 mongoose.connect('mongodb+srv://alexy_merivot:Peluche02650.@cluster0.adymo.mongodb.net/ClusterO?retryWrites=true&w=majority',
   { useNewUrlParser: true,
